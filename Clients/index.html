@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/chat.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./js/client.js"></script>
+    <title>Chat For Everyone | Chat Now</title>
+  </head>
+
+  <body>
+    <img class="imging" src="./img/bg.jpg" alt="Logo" />
+    <section class="msger">
+      <header class="msger-header">
+        <div class="msger-header-options">
+          <span><img class="logoIng" src="./img/chat.png" alt="Logo" /></span>
+        </div>
+        <div
+          class="msger-header-title"
+          style="font-weight: 900; font-size: 1rem"
+        >
+          Let's Chat
+        </div>
+      </header>
+
+      <main class="msger-chat">
+        <div class="center-msg">
+          <div class="msg-bubble">
+            <div class="msg-info-name">BOT</div>
+            <div class="msg-text">Hi, Welcome To Chat App 😄</div>
+          </div>
+        </div>
+      </main>
+
+      <form class="msger-inputarea">
+        <input
+          type="text"
+          class="msger-input"
+          placeholder="Enter your message..."
+        />
+        <button type="submit" class="msger-send-btn">Send</button>
+      </form>
+    </section>
+  </body>
+</html>
