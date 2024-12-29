@@ -6,7 +6,7 @@
 ```markdown
 # Chat App with Socket.IO
 
-A real-time chat application built using React.js for the frontend and Node.js
+A real-time chat application built using HTML,CSS and JS for the frontend and Node.js
  with Socket.IO for real-time communication. This app allows users to join different
  chat rooms and send/receive messages instantly.
 
